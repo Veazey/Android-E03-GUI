@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="com.example.a2016951707.androide03layouts.MainActivity">
+
+<TextView
+    android:id="@+id/titulo"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true"
+    android:text="GDC 2018"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintTop_toTopOf="parent" />
+
+<TextView
+    android:id="@+id/subtitulo"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/titulo"
+    android:layout_centerHorizontal="true"
+    android:text="GDC 2018 terá mais desenvolvedores e jogos brasileiros neste ano!" />
+
+<TextView
+    android:id="@+id/autor"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentEnd="true"
+    android:layout_below="@+id/subtitulo"
+    android:text="Tayná Garcia" />
+
+<TextView
+    android:id="@+id/corpo"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentStart="true"
+    android:layout_below="@+id/autor"
+    android:text="  O próximo evento da GDC, que acontecerá entre os dias 19 e 23 de março, vai contar com a maior delegação brasileira na história da feira de games — com cerca de 44 empresas e 120 profissionais.
+
+    Entre eles, vale destacar a presença das empresas Bad Minions e Rogue Snail, que já receberam Menção Honrosa no evento por Alkimya e Relic Hunters Legend, respectivamente.
+
+    Os brasileiros também vão marcar presença na GDC Play — que é uma atração do evento que possibilita aos desenvolvedores apresentarem seus projetos para investidores e distribuidores — com 19 de empresas.
+
+    Além disso, representantes do governo, como o Ministério da Cultura e a Ancine, vão acompanhar os desenvolvedores brasileiros no evento." />
+
+<TextView
+    android:id="@+id/data"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignEnd="@+id/autor"
+    android:layout_below="@+id/corpo"
+    android:text="13 de março de 2018 às 17h12" />
+
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView3"
+        android:layout_toStartOf="@+id/imageView3"
+        android:text="Envie um tweet para @firewalkwithtay" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        app:srcCompat="@drawable/autorr" />
+
+
+</RelativeLayout>
