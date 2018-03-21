@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/citty1"
+    tools:context="com.example.a2016951707.androide03layouts.Tempo"
+    android:stretchColumns="3" >
+
+
+    <TableRow android:paddingBottom="30dp">
+
+
+        <TextView
+            android:textColor="@color/white"
+            android:paddingLeft="30dp"
+            android:text="SEGUNDA-FEIRA: "
+            android:textSize="20dp" />
+
+        <ImageView
+            android:src="@drawable/spring" />
+
+        <TextView
+            android:textColor="@color/BlueIce"
+            android:textSize="26dp"
+            android:text="25°"
+            android:paddingLeft="15dp"
+            />
+        <TextView
+            android:textColor="@color/red"
+            android:textSize="26dp"
+            android:text="28°"
+            android:paddingLeft="15dp"
+
+            />
+    </TableRow>
+
+
+    <TableRow android:paddingBottom="30dp">
+    <TextView
+        android:textColor="@color/white"
+        android:paddingLeft="30dp"
+        android:textSize="20dp"
+        android:text="TERÇA-FEIRA: "
+        />
+
+    <ImageView
+        android:src="@drawable/spring"
+        />
+
+    <TextView
+        android:textColor="@color/BlueIce"
+        android:textSize="26dp"
+        android:text="21°"
+        android:paddingLeft="15dp"
+
+        />
+    <TextView
+        android:textColor="@color/red"
+        android:textSize="26dp"
+        android:text="25°"
+        android:paddingLeft="15dp"
+
+        />
+    </TableRow>
+
+    <TableRow android:paddingBottom="30dp">
+    <TextView
+        android:textColor="@color/white"
+        android:paddingLeft="30dp"
+        android:textSize="20dp"
+        android:text="QUARTA-FEIRA: "
+        />
+
+    <ImageView
+        android:src="@drawable/rainy"
+        />
+
+    <TextView
+        android:textColor="@color/BlueIce"
+        android:textSize="26dp"
+        android:text="15°"
+        android:paddingLeft="15dp"
+
+        />
+    <TextView
+        android:textColor="@color/red"
+        android:textSize="26dp"
+        android:text="18°"
+        android:paddingLeft="15dp"
+
+        />
+    </TableRow>
+
+
+    <TableRow android:paddingBottom="30dp">
+        <TextView
+            android:textColor="@color/white"
+            android:paddingLeft="30dp"
+            android:textSize="20dp"
+            android:text="QUINTA-FEIRA: "
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/rainbow" />
+
+        <TextView
+            android:textColor="@color/BlueIce"
+            android:textSize="26dp"
+            android:text="20°"
+            android:paddingLeft="15dp"
+            />
+        <TextView
+            android:textColor="@color/red"
+            android:textSize="26dp"
+            android:text="25°"
+            android:paddingLeft="15dp"
+            />
+    </TableRow>
+
+
+    <TableRow android:paddingBottom="30dp">
+        <TextView
+            android:textColor="@color/white"
+            android:paddingLeft="30dp"
+            android:textSize="20dp"
+            android:text="SEXTA-FEIRA: "
+            />
+
+        <ImageView
+            android:src="@drawable/stormy"
+            />
+
+        <TextView
+            android:textColor="@color/BlueIce"
+            android:textSize="26dp"
+            android:text="12°"
+            android:paddingLeft="15dp"
+
+            />
+        <TextView
+            android:textColor="@color/red"
+            android:textSize="26dp"
+            android:text="15°"
+            android:paddingLeft="15dp"
+
+            />
+    </TableRow>
+
+
+    <TableRow android:paddingBottom="30dp">
+
+        <TextView
+            android:textColor="@color/white"
+            android:paddingLeft="30dp"
+            android:text="SÁBADO: "
+            android:textSize="20dp" />
+
+        <ImageView
+            android:src="@drawable/dewpoint" />
+
+        <TextView
+            android:textColor="@color/BlueIce"
+            android:textSize="26dp"
+            android:text="-5°"
+            android:paddingLeft="15dp"
+            />
+        <TextView
+            android:textColor="@color/red"
+            android:textSize="26dp"
+            android:text="10°"
+            android:paddingLeft="15dp"
+
+            />
+    </TableRow>
+
+
+    <TableRow android:paddingBottom="30dp">
+
+        <TextView
+            android:textColor="@color/white"
+            android:paddingLeft="30dp"
+            android:text="DOMINGO: "
+            android:textSize="20dp" />
+
+        <ImageView
+            android:src="@drawable/icy" />
+
+        <TextView
+            android:textColor="@color/BlueIce"
+            android:textSize="26dp"
+            android:text="-15°"
+            android:paddingLeft="15dp"
+            />
+        <TextView
+            android:textColor="@color/red"
+            android:textSize="26dp"
+            android:text="-5°"
+            android:paddingLeft="15dp"
+
+            />
+    </TableRow>
+
+</TableLayout>
