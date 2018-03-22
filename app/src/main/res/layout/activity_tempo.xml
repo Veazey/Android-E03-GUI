@@ -15,7 +15,7 @@
         <TextView
             android:textColor="@color/white"
             android:paddingLeft="30dp"
-            android:text="SEGUNDA-FEIRA: "
+            android:text="@string/Segunda"
             android:textSize="20dp" />
 
         <ImageView
@@ -42,8 +42,7 @@
         android:textColor="@color/white"
         android:paddingLeft="30dp"
         android:textSize="20dp"
-        android:text="TERÇA-FEIRA: "
-        />
+        android:text="@string/Terça"        />
 
     <ImageView
         android:src="@drawable/spring"
@@ -70,8 +69,7 @@
         android:textColor="@color/white"
         android:paddingLeft="30dp"
         android:textSize="20dp"
-        android:text="QUARTA-FEIRA: "
-        />
+        android:text="@string/Quarta"        />
 
     <ImageView
         android:src="@drawable/rainy"
@@ -99,8 +97,7 @@
             android:textColor="@color/white"
             android:paddingLeft="30dp"
             android:textSize="20dp"
-            android:text="QUINTA-FEIRA: "
-            />
+            android:text="@string/Quinta"            />
 
         <ImageView
             android:layout_width="wrap_content"
@@ -127,8 +124,7 @@
             android:textColor="@color/white"
             android:paddingLeft="30dp"
             android:textSize="20dp"
-            android:text="SEXTA-FEIRA: "
-            />
+            android:text="@string/Sexta"            />
 
         <ImageView
             android:src="@drawable/stormy"
@@ -156,7 +152,7 @@
         <TextView
             android:textColor="@color/white"
             android:paddingLeft="30dp"
-            android:text="SÁBADO: "
+            android:text="@string/Sábado"
             android:textSize="20dp" />
 
         <ImageView
@@ -183,7 +179,7 @@
         <TextView
             android:textColor="@color/white"
             android:paddingLeft="30dp"
-            android:text="DOMINGO: "
+            android:text="@string/Domingo"
             android:textSize="20dp" />
 
         <ImageView

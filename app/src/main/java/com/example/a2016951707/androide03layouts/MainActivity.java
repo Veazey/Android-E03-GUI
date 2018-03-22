@@ -21,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
         Button formulario = findViewById(R.id.formulario);
         Button tempo = findViewById(R.id.tempo);
 
+
         noticia.setOnClickListener(new View.OnClickListener() {
 
             @Override

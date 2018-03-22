@@ -16,7 +16,7 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentStart="true"
         android:layout_marginBottom="101dp"
-        android:text="Noticia" />
+        android:text="@string/Noticia" />
 
     <Button
         android:id="@+id/tempo"
@@ -25,7 +25,7 @@
         android:layout_above="@+id/noticia"
         android:layout_alignParentStart="true"
         android:layout_marginBottom="43dp"
-        android:text="Previsão do Tempo" />
+        android:text="@string/Tempo" />
 
     <Button
         android:id="@+id/formulario"
@@ -34,6 +34,6 @@
         android:layout_above="@+id/tempo"
         android:layout_alignParentStart="true"
         android:layout_marginBottom="50dp"
-        android:text="Formulário" />
+        android:text="@string/Formulario" />
 
 </RelativeLayout>

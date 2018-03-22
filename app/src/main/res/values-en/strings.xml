@@ -1,0 +1,21 @@
+<resources>
+    <string name="Formulario">Form</string>
+    <string name="app_name">Android E03: Layouts</string>
+    <string name="Nome">Name:</string>
+    <string name="Nota">Rate:</string>
+    <string name="Feed">Feedback:</string>
+    <string name="Enviar">Send:</string>
+
+    <string name="Tempo">Weather</string>
+    <string name="Segunda">Saturday</string>
+    <string name="Terça">Tuesday</string>
+    <string name="Quarta">Wednesday</string>
+    <string name="Quinta">Thursday</string>
+    <string name="Sexta">Friday</string>
+    <string name="Sábado">Saturday</string>
+    <string name="Domingo">Sunday</string>
+
+    <string name="Noticia">News</string>
+
+
+</resources>
